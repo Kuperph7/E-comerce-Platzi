@@ -1,0 +1,12 @@
+@use "./vars.scss";
+
+.main-container {
+  margin-top: 20px;
+}
+
+.ProductList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 100px;
+  place-content: center;
+}
